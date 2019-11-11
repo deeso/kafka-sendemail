@@ -1,0 +1,15 @@
+toml
+requests
+kafka-python
+faust
+flask
+splunk-sdk
+tabulate
+toml
+Crypto
+python-magic
+pytz
+pymongo
+wheel
+docker
+psutil

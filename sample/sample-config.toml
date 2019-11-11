@@ -1,0 +1,14 @@
+
+[kafka-email]
+
+    smtp_host = 'smtp.example.com'
+    smtp_port = 25
+    smtp_use_tls = true
+
+    kafka_broker = '127.0.0.1:9092'
+    kafka_topic = 'send_emails'
+    kafka_group = 'send_emails_group'
+    kafka_client_id = 'send_emails_client'
+    kafka_pattern = "send_emails*"
+
+    kafka_component = 'producer' # or 'consumer
